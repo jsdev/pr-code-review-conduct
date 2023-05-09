@@ -2,7 +2,7 @@
 
 ## As the Commit Author
 - **DO** Verify that your project already passes the basic linting, tests, and builds prior to making a Pull Request.
-- **DO** Keep your code concise! The less code there is to read, the less mental energy it takes to understand it. But remember to focus on conciseness of thought, not size. [Code golfing](https://medium.com/geekculture/stop-playing-code-golf-at-work-ef77a310f450) is not encouraged.
+- **DO** Keep your code concise! The less code there is to read, the less mental energy it takes to understand it. But remember to focus on conciseness of thought, not size. <a href="https://medium.com/geekculture/stop-playing-code-golf-at-work-ef77a310f450">Code golfing</a> is not encouraged.
 - **DO** Make the intent of your code easy to understand by writing tests. Tests help the reader understand the desired outcome of your code, so they can infer the steps taken to get there.
 - **DO** Write self-documenting code. Self-documenting code is code written in such a way that it already transmits a lot of information about what it is, what it does, and how it's implemented. This can be accomplished by making sure functions are properly named, correct verbiage is used, function signatures and types are defined and enforced, etc.
 - **DO** Ensure you are using software development patterns such as modular CSS, using composable function patterns, managing data in contexts, and so on.
@@ -24,5 +24,5 @@
 - **DO** Take consideration of the urgency of the ticket before asking for lengthy refactors or expanding scope of the ticket. If a PR needs to be tactically merged, approve the PR and create new cleanup tickets under the TECHDEBT label
 - **DO** use the Like button if you see an existing comment which already says what you wanted to say. This helps keep the PR more readable and avoids cluttering up the PR thread with small comments that just say things like "I agree"
 - **DON'T** Commit over the author's code and rewrite it without talking to them first. There are many, many reasons why this is unproductive both from a technical and social perspective.
-- **DON'T** Confuse opinion and fact. Opinions are great and encouraged, but should be argued for via persuasion, not as a blanket statement. See also [Strong Opinions Loosely Held Might be the Worst Idea in Tech](https://medium.com/swlh/strong-opinions-loosely-held-might-be-the-worst-idea-in-tech-c3e65cb512f1)
+- **DON'T** Confuse opinion and fact. Opinions are great and encouraged, but should be argued for via persuasion, not as a blanket statement. See also <a href="https://medium.com/swlh/strong-opinions-loosely-held-might-be-the-worst-idea-in-tech-c3e65cb512f1">Strong Opinions Loosely Held Might be the Worst Idea in Tech</a>
 - **DON'T** Be too dogmatic about a certain practices. The AWE Front-end team is goals focused on delivering the best product experience we can to our clients. This means that writing code is only a means to an end, but not the end itself. As such, when making pronouncements about what code MUST or MUST NOT do, this should be backed up with reasoned tradeoffs that lead to that decision from a **product** perspective.
