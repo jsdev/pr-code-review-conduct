@@ -1,9 +1,9 @@
 # PR Code of Conduct
 
 ## As the Commit Author
-- **DO** Verify that your project already passes the basic linting, tests, and builds prior to making a Pull Request.
+- **DO** Verify that your project already passes extensive linting. Here is an some awesome list of <a href="https://github.com/dustinspecker/awesome-eslint">reputable eslint configs</a>.
+- **DO** Passes all tests locally, ideally this is part of a git hook, and avoids slowing down pipeline builds unecessarily
 - **DO** Keep your code concise! The less code there is to read, the less mental energy it takes to understand it. But remember to focus on conciseness of thought, not size. <a href="https://medium.com/geekculture/stop-playing-code-golf-at-work-ef77a310f450">Code golfing</a> is not encouraged.
-- **DO** Make the intent of your code easy to understand by writing tests. Tests help the reader understand the desired outcome of your code, so they can infer the steps taken to get there.
 - **DO** Write self-documenting code. Self-documenting code is code written in such a way that it already transmits a lot of information about what it is, what it does, and how it's implemented. This can be accomplished by making sure functions are properly named, correct verbiage is used, function signatures and types are defined and enforced, etc.
 - **DO** Ensure you are using software development patterns such as modular CSS, using composable function patterns, managing data in contexts, and so on.
 - **DO** Preemptively comment on your own PR if you realize a certain portion needs extra attention or is expected to spark discussion.
