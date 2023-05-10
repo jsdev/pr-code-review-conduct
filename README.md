@@ -2,7 +2,7 @@
 
 ## As the Commit Author
 - **DO** Verify that your project already passes extensive linting. Here is an some awesome list of <a href="https://github.com/dustinspecker/awesome-eslint">reputable eslint configs</a>. Linters should ensure, deprecated code is removed, unused dependencies removed, as well as many more DON'T automatically that we don't need to list them here.
-- **DO** Keep security in mind, can't afford it to be an afterthought shipping product. <a href"https://dev.to/nirajkvinit/application-security-best-practices-defensive-programming-3o87"Security Best Practices</a>
+- **DO** Keep security in mind, can't afford it to be an afterthought shipping product. <a href="https://dev.to/nirajkvinit/application-security-best-practices-defensive-programming-3o87"Security Best Practices</a>
 - **DO** Passes all tests locally, ideally this is part of a git hook, and avoids slowing down pipeline builds unecessarily
 - **DO** Keep your code concise! The less code there is to read, the less mental energy it takes to understand it. But remember to focus on conciseness of thought, not size. <a href="https://medium.com/geekculture/stop-playing-code-golf-at-work-ef77a310f450">Code golfing</a> is not encouraged.
 - **DO** Write self-documenting code. Self-documenting code is code written in such a way that it already transmits a lot of information about what it is, what it does, and how it's implemented. This can be accomplished by making sure functions are properly named, correct verbiage is used, function signatures and types are defined and enforced, etc.
