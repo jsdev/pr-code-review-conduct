@@ -1,7 +1,8 @@
 # PR Code of Conduct
 
 ## As the Commit Author
-- **DO** Verify that your project already passes extensive linting. Here is an some awesome list of <a href="https://github.com/dustinspecker/awesome-eslint">reputable eslint configs</a>.
+- **DO** Verify that your project already passes extensive linting. Here is an some awesome list of <a href="https://github.com/dustinspecker/awesome-eslint">reputable eslint configs</a>. Linters should ensure, deprecated code is removed, unused dependencies removed, as well as many more DON'T automatically that we don't need to list them here.
+- **DO** Keep security in mind, can't afford it to be an afterthought shipping product. <a href"https://dev.to/nirajkvinit/application-security-best-practices-defensive-programming-3o87"Security Best Practices</a>
 - **DO** Passes all tests locally, ideally this is part of a git hook, and avoids slowing down pipeline builds unecessarily
 - **DO** Keep your code concise! The less code there is to read, the less mental energy it takes to understand it. But remember to focus on conciseness of thought, not size. <a href="https://medium.com/geekculture/stop-playing-code-golf-at-work-ef77a310f450">Code golfing</a> is not encouraged.
 - **DO** Write self-documenting code. Self-documenting code is code written in such a way that it already transmits a lot of information about what it is, what it does, and how it's implemented. This can be accomplished by making sure functions are properly named, correct verbiage is used, function signatures and types are defined and enforced, etc.
@@ -25,4 +26,4 @@
 - **DO** use the Like button if you see an existing comment which already says what you wanted to say. This helps keep the PR more readable and avoids cluttering up the PR thread with small comments that just say things like "I agree"
 - **DON'T** Commit over the author's code and rewrite it without talking to them first. There are many, many reasons why this is unproductive both from a technical and social perspective.
 - **DON'T** Confuse opinion and fact. Opinions are great and encouraged, but should be argued for via persuasion, not as a blanket statement. See also <a href="https://medium.com/swlh/strong-opinions-loosely-held-might-be-the-worst-idea-in-tech-c3e65cb512f1">Strong Opinions Loosely Held Might be the Worst Idea in Tech</a>
-- **DON'T** Be too dogmatic about a certain practices. Goals are focused on delivering the best product experience for our clients, writing code is only a means to an end, but not the end itself. As such, when making pronouncements about what code MUST or MUST NOT do, this should be backed up with reasoned tradeoffs that lead to that decision from a **product** perspective.
+- **DON'T** Be too dogmatic about certain practices. Goals are focused on delivering the best product experience for our clients, writing code is only a means to an end, but not the end itself. As such, when making pronouncements about what code MUST or MUST NOT do, this should be backed up with reasoned tradeoffs that lead to that decision from a **product** perspective.
