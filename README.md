@@ -12,7 +12,7 @@
 - **DO** Expect to receive multiple rounds of comments. It's likely you will need to re-check your PR after another round of commits because certain changes may draw more attention to other parts of the code
 - **DON'T** Combine large refactors along with feature changes in the same PR. These two things should be done as two steps and evaluated individually. If the nature of the ticket requires both in the same PR, try to keep refactors and changes separated by commit.
 - **DON'T** Forget to respond to comments before merging your PR. Sometimes a comment does not require code changes, but simply asks you to acknowledge that you read it, affirm a yes/no question, or clarify a client requirement.
-- **DON'T** Be afraid to ask for clarification, push back on comments, or suggest rescoping work into future PRS. As the developer of the code you may be aware of some special case that the reviewer does not see immediately.
+- **DON'T** Be afraid to ask for clarification, push back on comments, or suggest rescoping work into future Pull Requests. As the developer of the code you may be aware of some special case that the reviewer does not see immediately.
 - **DON'T** Be anxious about PRs being perfect. PR can be useful as a public forum to generate discussion and ideas around a better solution.
 
 ## As a Code Reviewer
